@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeAssignment renders correctly 1`] = `
+<div
+  className="home-assignment"
+>
+  <div
+    className="table"
+  >
+    <div
+      className="table-actions"
+    >
+      <div
+        className="table-actions__select"
+      >
+        <label
+          className="visually-hidden"
+          htmlFor="select-all"
+        >
+          Select all
+        </label>
+        <input
+          checked={true}
+          className="table-actions__check-all-indeterminate"
+          data-testid="select-all-checkbox"
+          id="select-all"
+          name="select-all"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <div
+          className="table-actions__selection-count"
+        >
+          None Selected
+        </div>
+      </div>
+    </div>
+    <div
+      className="table-header table-header-selectable"
+    >
+      <div
+        className="table-header__item table-header__name"
+      >
+        Name
+      </div>
+      <div
+        className="table-header__item table-header__device"
+      >
+        Device
+      </div>
+      <div
+        className="table-header__item table-header__path"
+      >
+        Path
+      </div>
+      <div
+        className="table-header__item table-header__status"
+      >
+        Status
+      </div>
+    </div>
+    <div
+      className="table-body__no-data"
+    >
+      No data
+    </div>
+  </div>
+</div>
+`;

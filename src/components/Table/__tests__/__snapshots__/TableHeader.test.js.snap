@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableHeader renders correctly 1`] = `
+<div
+  className="table-header table-header-selectable"
+>
+  <div
+    className="table-header__item table-header__name"
+  >
+    Name
+  </div>
+  <div
+    className="table-header__item table-header__device"
+  >
+    Device
+  </div>
+  <div
+    className="table-header__item table-header__path"
+  >
+    Path
+  </div>
+  <div
+    className="table-header__item table-header__status"
+  >
+    Status
+  </div>
+</div>
+`;
+
+exports[`TableHeader renders correctly without select all 1`] = `
+<div
+  className="table-header "
+>
+  <div
+    className="table-header__item table-header__name"
+  >
+    Name
+  </div>
+  <div
+    className="table-header__item table-header__device"
+  >
+    Device
+  </div>
+  <div
+    className="table-header__item table-header__path"
+  >
+    Path
+  </div>
+  <div
+    className="table-header__item table-header__status"
+  >
+    Status
+  </div>
+</div>
+`;

@@ -1,0 +1,526 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table renders correctly with data 1`] = `
+<div
+  className="table"
+>
+  <div
+    className="table-actions"
+  >
+    <div
+      className="table-actions__select"
+    >
+      <label
+        className="visually-hidden"
+        htmlFor="select-all"
+      >
+        Select all
+      </label>
+      <input
+        checked={false}
+        className="table-actions__check-all"
+        data-testid="select-all-checkbox"
+        id="select-all"
+        name="select-all"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="table-actions__selection-count"
+      >
+        None Selected
+      </div>
+    </div>
+  </div>
+  <div
+    className="table-header table-header-selectable"
+  >
+    <div
+      className="table-header__item table-header__no headers"
+    >
+      No Headers
+    </div>
+  </div>
+  <div
+    className="table-body"
+  >
+    <div
+      className=" table-body__data-row"
+    >
+      <label
+        className="visually-hidden"
+        htmlFor="smss.exe"
+      >
+        smss.exe
+      </label>
+      <input
+        checked={false}
+        className="table-body__select-row"
+        data-testid="select-row-checkbox-0"
+        id="smss.exe"
+        name="smss.exe"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="table-body__data table-body__data-name"
+      >
+        smss.exe
+      </div>
+      <div
+        className="table-body__data table-body__data-device"
+      >
+        Stark
+      </div>
+      <div
+        className="table-body__data table-body__data-path"
+      >
+        \\Device\\HarddiskVolume2\\Windows\\System32\\smss.exe
+      </div>
+      <div
+        className="table-body__data table-body__data-status"
+      >
+        scheduled
+      </div>
+    </div>
+    <div
+      className=" table-body__data-row"
+    >
+      <label
+        className="visually-hidden"
+        htmlFor="netsh.exe"
+      >
+        netsh.exe
+      </label>
+      <input
+        checked={false}
+        className="table-body__select-row"
+        data-testid="select-row-checkbox-1"
+        id="netsh.exe"
+        name="netsh.exe"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="table-body__data table-body__data-name"
+      >
+        netsh.exe
+      </div>
+      <div
+        className="table-body__data table-body__data-device"
+      >
+        Targaryen
+      </div>
+      <div
+        className="table-body__data table-body__data-path"
+      >
+        \\Device\\HarddiskVolume2\\Windows\\System32\\netsh.exe
+      </div>
+      <div
+        className="table-body__data table-body__data-status"
+      >
+        <svg
+          className="table-body__status-icon"
+          title="status-icon-circle"
+        >
+          circleIcon.svg
+        </svg>
+        available
+      </div>
+    </div>
+    <div
+      className=" table-body__data-row"
+    >
+      <label
+        className="visually-hidden"
+        htmlFor="uxtheme.dll"
+      >
+        uxtheme.dll
+      </label>
+      <input
+        checked={false}
+        className="table-body__select-row"
+        data-testid="select-row-checkbox-2"
+        id="uxtheme.dll"
+        name="uxtheme.dll"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="table-body__data table-body__data-name"
+      >
+        uxtheme.dll
+      </div>
+      <div
+        className="table-body__data table-body__data-device"
+      >
+        Lannister
+      </div>
+      <div
+        className="table-body__data table-body__data-path"
+      >
+        \\Device\\HarddiskVolume1\\Windows\\System32\\uxtheme.dll
+      </div>
+      <div
+        className="table-body__data table-body__data-status"
+      >
+        <svg
+          className="table-body__status-icon"
+          title="status-icon-circle"
+        >
+          circleIcon.svg
+        </svg>
+        available
+      </div>
+    </div>
+    <div
+      className=" table-body__data-row"
+    >
+      <label
+        className="visually-hidden"
+        htmlFor="cryptbase.dll"
+      >
+        cryptbase.dll
+      </label>
+      <input
+        checked={false}
+        className="table-body__select-row"
+        data-testid="select-row-checkbox-3"
+        id="cryptbase.dll"
+        name="cryptbase.dll"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="table-body__data table-body__data-name"
+      >
+        cryptbase.dll
+      </div>
+      <div
+        className="table-body__data table-body__data-device"
+      >
+        Martell
+      </div>
+      <div
+        className="table-body__data table-body__data-path"
+      >
+        \\Device\\HarddiskVolume1\\Windows\\System32\\cryptbase.dll
+      </div>
+      <div
+        className="table-body__data table-body__data-status"
+      >
+        scheduled
+      </div>
+    </div>
+    <div
+      className=" table-body__data-row"
+    >
+      <label
+        className="visually-hidden"
+        htmlFor="7za.exe"
+      >
+        7za.exe
+      </label>
+      <input
+        checked={false}
+        className="table-body__select-row"
+        data-testid="select-row-checkbox-4"
+        id="7za.exe"
+        name="7za.exe"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="table-body__data table-body__data-name"
+      >
+        7za.exe
+      </div>
+      <div
+        className="table-body__data table-body__data-device"
+      >
+        Baratheon
+      </div>
+      <div
+        className="table-body__data table-body__data-path"
+      >
+        \\Device\\HarddiskVolume1\\temp\\7za.exe
+      </div>
+      <div
+        className="table-body__data table-body__data-status"
+      >
+        scheduled
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Table renders correctly with data and headers 1`] = `
+<div
+  className="table"
+>
+  <div
+    className="table-actions"
+  >
+    <div
+      className="table-actions__select"
+    >
+      <label
+        className="visually-hidden"
+        htmlFor="select-all"
+      >
+        Select all
+      </label>
+      <input
+        checked={false}
+        className="table-actions__check-all"
+        data-testid="select-all-checkbox"
+        id="select-all"
+        name="select-all"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="table-actions__selection-count"
+      >
+        None Selected
+      </div>
+    </div>
+  </div>
+  <div
+    className="table-header table-header-selectable"
+  >
+    <div
+      className="table-header__item table-header__name"
+    >
+      Name
+    </div>
+    <div
+      className="table-header__item table-header__device"
+    >
+      Device
+    </div>
+    <div
+      className="table-header__item table-header__path"
+    >
+      Path
+    </div>
+    <div
+      className="table-header__item table-header__status"
+    >
+      Status
+    </div>
+  </div>
+  <div
+    className="table-body"
+  >
+    <div
+      className=" table-body__data-row"
+    >
+      <label
+        className="visually-hidden"
+        htmlFor="smss.exe"
+      >
+        smss.exe
+      </label>
+      <input
+        checked={false}
+        className="table-body__select-row"
+        data-testid="select-row-checkbox-0"
+        id="smss.exe"
+        name="smss.exe"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="table-body__data table-body__data-name"
+      >
+        smss.exe
+      </div>
+      <div
+        className="table-body__data table-body__data-device"
+      >
+        Stark
+      </div>
+      <div
+        className="table-body__data table-body__data-path"
+      >
+        \\Device\\HarddiskVolume2\\Windows\\System32\\smss.exe
+      </div>
+      <div
+        className="table-body__data table-body__data-status"
+      >
+        scheduled
+      </div>
+    </div>
+    <div
+      className=" table-body__data-row"
+    >
+      <label
+        className="visually-hidden"
+        htmlFor="netsh.exe"
+      >
+        netsh.exe
+      </label>
+      <input
+        checked={false}
+        className="table-body__select-row"
+        data-testid="select-row-checkbox-1"
+        id="netsh.exe"
+        name="netsh.exe"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="table-body__data table-body__data-name"
+      >
+        netsh.exe
+      </div>
+      <div
+        className="table-body__data table-body__data-device"
+      >
+        Targaryen
+      </div>
+      <div
+        className="table-body__data table-body__data-path"
+      >
+        \\Device\\HarddiskVolume2\\Windows\\System32\\netsh.exe
+      </div>
+      <div
+        className="table-body__data table-body__data-status"
+      >
+        <svg
+          className="table-body__status-icon"
+          title="status-icon-circle"
+        >
+          circleIcon.svg
+        </svg>
+        available
+      </div>
+    </div>
+    <div
+      className=" table-body__data-row"
+    >
+      <label
+        className="visually-hidden"
+        htmlFor="uxtheme.dll"
+      >
+        uxtheme.dll
+      </label>
+      <input
+        checked={false}
+        className="table-body__select-row"
+        data-testid="select-row-checkbox-2"
+        id="uxtheme.dll"
+        name="uxtheme.dll"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="table-body__data table-body__data-name"
+      >
+        uxtheme.dll
+      </div>
+      <div
+        className="table-body__data table-body__data-device"
+      >
+        Lannister
+      </div>
+      <div
+        className="table-body__data table-body__data-path"
+      >
+        \\Device\\HarddiskVolume1\\Windows\\System32\\uxtheme.dll
+      </div>
+      <div
+        className="table-body__data table-body__data-status"
+      >
+        <svg
+          className="table-body__status-icon"
+          title="status-icon-circle"
+        >
+          circleIcon.svg
+        </svg>
+        available
+      </div>
+    </div>
+    <div
+      className=" table-body__data-row"
+    >
+      <label
+        className="visually-hidden"
+        htmlFor="cryptbase.dll"
+      >
+        cryptbase.dll
+      </label>
+      <input
+        checked={false}
+        className="table-body__select-row"
+        data-testid="select-row-checkbox-3"
+        id="cryptbase.dll"
+        name="cryptbase.dll"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="table-body__data table-body__data-name"
+      >
+        cryptbase.dll
+      </div>
+      <div
+        className="table-body__data table-body__data-device"
+      >
+        Martell
+      </div>
+      <div
+        className="table-body__data table-body__data-path"
+      >
+        \\Device\\HarddiskVolume1\\Windows\\System32\\cryptbase.dll
+      </div>
+      <div
+        className="table-body__data table-body__data-status"
+      >
+        scheduled
+      </div>
+    </div>
+    <div
+      className=" table-body__data-row"
+    >
+      <label
+        className="visually-hidden"
+        htmlFor="7za.exe"
+      >
+        7za.exe
+      </label>
+      <input
+        checked={false}
+        className="table-body__select-row"
+        data-testid="select-row-checkbox-4"
+        id="7za.exe"
+        name="7za.exe"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="table-body__data table-body__data-name"
+      >
+        7za.exe
+      </div>
+      <div
+        className="table-body__data table-body__data-device"
+      >
+        Baratheon
+      </div>
+      <div
+        className="table-body__data table-body__data-path"
+      >
+        \\Device\\HarddiskVolume1\\temp\\7za.exe
+      </div>
+      <div
+        className="table-body__data table-body__data-status"
+      >
+        scheduled
+      </div>
+    </div>
+  </div>
+</div>
+`;

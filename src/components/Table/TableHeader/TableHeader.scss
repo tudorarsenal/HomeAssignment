@@ -1,0 +1,25 @@
+.table-header {
+  display: flex;
+  padding: 10px;
+  border: 1px solid rgb(237, 237, 237);
+  background-color: white;
+  font-size: 18px;
+
+  &__item {
+    flex: 1;
+  }
+
+  &__path {
+    flex: 2;
+  }
+}
+
+.table-header-selectable {
+  padding-left: 65px;
+}
+
+@media screen and (max-width: 800px) {
+  .table-header-selectable {
+    padding-left: 45px;
+  }
+}

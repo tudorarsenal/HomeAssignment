@@ -1,0 +1,78 @@
+.table-actions {
+  display: flex;
+  padding: 20px 10px;
+  font-size: 20px;
+  border: 1px solid rgb(237, 237, 237);
+  background-color: white;
+
+  &__selection-count {
+    margin-left: 10px;
+  }
+
+  &__select {
+    display: flex;
+    align-items: baseline;
+    margin-right: 20px;
+  }
+
+  &__check-all-indeterminate {
+    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+  }
+
+  &__download {
+    display: flex;
+  }
+
+  &__download-label {
+    margin-right: 10px;
+  }
+
+  &__download-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    padding: 0;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
+    font-weight: normal;
+  }
+
+  &__download-error-message {
+    align-self: center;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  &__download-icon {
+    align-self: center;
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .table-actions__download-button,
+  .table-actions__download-error-message {
+    font-size: 14px;
+  }
+
+  .table-actions__selection-count {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .table-actions__download-button,
+  .table-actions__download-error-message {
+    font-size: 12px;
+  }
+
+  .table-actions__selection-count {
+    font-size: 14px;
+  }
+}

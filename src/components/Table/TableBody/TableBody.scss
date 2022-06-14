@@ -1,0 +1,56 @@
+.table-body {
+  &__data-row {
+    display: flex;
+    padding: 10px;
+    border: 1px solid rgb(237, 237, 237);
+    background-color: white;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(252, 248, 248);
+    }
+
+    &:focus-within {
+      background-color: rgb(237, 235, 235);
+    }
+  }
+
+  &__data {
+    flex: 1;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+
+  &__select-row {
+    margin-right: 40px;
+  }
+
+  &__data-row-selected {
+    background-color: rgb(232, 232, 232);
+  }
+
+  &__status-icon {
+    position: absolute;
+    left: -30px;
+    width: 20px;
+    height: 20px;
+    overflow: initial;
+  }
+
+  &__data-status {
+    text-transform: capitalize;
+    position: relative;
+    overflow: initial;
+    margin-left: 30px;
+  }
+
+  &__data-path {
+    flex: 2;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .table-body__select-row {
+    margin-right: 20px;
+  }
+}
