@@ -11,7 +11,11 @@
     }
 
     &:focus-within {
-      background-color: rgb(237, 235, 235);
+      background-color: rgb(252, 248, 248);
+    }
+
+    &.table-body__data-row-selected {
+      background-color: rgb(232, 232, 232);
     }
   }
 
@@ -23,10 +27,6 @@
 
   &__select-row {
     margin-right: 40px;
-  }
-
-  &__data-row-selected {
-    background-color: rgb(232, 232, 232);
   }
 
   &__status-icon {

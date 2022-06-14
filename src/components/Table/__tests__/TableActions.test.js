@@ -49,4 +49,24 @@ describe('TableActions', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  it('renders correctly with download error and disabled button', () => {
+    const downloadRules = {
+      disableButton: true,
+      errorMessage: 'Requirements not meet',
+    };
+
+    const tree = renderer
+      .create(
+        <TableActions
+          isSelectable={true}
+          selectedRowsCount={2}
+          isDownloadable={true}
+          areDownloadRulesMeet={false}
+          downloadRules={downloadRules}
+        />
+      )
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 });

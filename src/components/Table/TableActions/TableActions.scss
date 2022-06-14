@@ -6,10 +6,12 @@
   background-color: white;
 
   &__selection-count {
+    text-align: center;
     margin-left: 10px;
   }
 
   &__select {
+    flex: 1;
     display: flex;
     align-items: baseline;
     margin-right: 20px;
@@ -20,6 +22,7 @@
   }
 
   &__download {
+    flex: 5;
     display: flex;
   }
 
@@ -67,9 +70,27 @@
 }
 
 @media screen and (max-width: 800px) {
-  .table-actions__download-button,
+  .table-actions__download {
+    flex: 4;
+  }
+
+  .table-actions__download-button {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
   .table-actions__download-error-message {
     font-size: 12px;
+  }
+
+  .table-actions__select {
+    margin-right: 10px;
+  }
+
+  .table-actions__download-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
   }
 
   .table-actions__selection-count {

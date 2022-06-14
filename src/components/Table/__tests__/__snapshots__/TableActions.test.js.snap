@@ -85,6 +85,62 @@ exports[`TableActions renders correctly with download error 1`] = `
 </div>
 `;
 
+exports[`TableActions renders correctly with download error and disabled button 1`] = `
+<div
+  className="table-actions"
+>
+  <div
+    className="table-actions__select"
+  >
+    <label
+      className="visually-hidden"
+      htmlFor="select-all"
+    >
+      Select all
+    </label>
+    <input
+      className="table-actions__check-all-indeterminate"
+      data-testid="select-all-checkbox"
+      id="select-all"
+      name="select-all"
+      type="checkbox"
+    />
+    <div
+      className="table-actions__selection-count"
+    >
+      Selected 2
+    </div>
+  </div>
+  <div
+    className="table-actions__download"
+  >
+    <button
+      className="table-actions__download-button"
+      data-testid="download-button"
+      disabled={true}
+    >
+      <svg
+        className="table-actions__download-icon"
+        title="download-icon"
+      >
+        downloadIcon.svg
+      </svg>
+      <span
+        className="table-actions__download-label"
+      >
+        Download Selected
+      </span>
+    </button>
+    <div
+      className="table-actions__download-error-message"
+      role="alert"
+    >
+      Requirements not meet
+    </div>
+  </div>
+</div>
+`;
+
 exports[`TableActions renders correctly with indeterminate state for select all 1`] = `
 <div
   className="table-actions"
